@@ -1,0 +1,148 @@
+.experience {
+  position: relative;
+}
+
+.experience-timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--primary), var(--accent));
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.experience-icon {
+  position: absolute;
+  left: -2.75rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: var(--dark-light);
+  border: 3px solid var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--primary);
+  z-index: 1;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+.experience-content {
+  background: var(--dark-light);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(99, 102, 241, 0.1);
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.experience-content:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.15);
+  transform: translateX(5px);
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.experience-role {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.3rem;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.experience-company {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--gray-light);
+}
+
+.experience-meta {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.experience-period,
+.experience-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.experience-period svg,
+.experience-location svg {
+  color: var(--primary);
+}
+
+.experience-responsibilities {
+  list-style: none;
+  padding: 0;
+}
+
+.experience-responsibilities li {
+  color: var(--gray-light);
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.experience-responsibilities li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .experience-timeline {
+    padding-left: 1.5rem;
+  }
+
+  .experience-icon {
+    left: -2.25rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .experience-content {
+    padding: 1.5rem;
+  }
+
+  .experience-role {
+    font-size: 1.2rem;
+  }
+
+  .experience-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
