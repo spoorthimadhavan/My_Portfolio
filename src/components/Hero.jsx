@@ -34,14 +34,6 @@ const Hero = () => {
         animate="visible"
       >
         <motion.div className="hero-content" variants={itemVariants}>
-          <motion.p
-            className="hero-greeting"
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            👋 Hello, I'm
-          </motion.p>
 
           <motion.h1
             className="hero-name"

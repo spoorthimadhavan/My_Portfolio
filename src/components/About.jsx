@@ -63,7 +63,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            I'm a passionate <strong>Fullstack Developer</strong> with expertise in various JavaScript frameworks, 
+            I am a passionate <strong>Fullstack Developer</strong> with expertise in various JavaScript frameworks, 
             dedicated to building robust, scalable applications. My approach centers around{' '}
             <strong>test-driven development</strong>, ensuring code quality and system reliability from the ground up.
           </motion.p>
@@ -77,7 +77,7 @@ const About = () => {
           >
             With experience across the full development stack—from React and TypeScript on the frontend to Node.js, 
             .NET, and Python on the backend—I bring a comprehensive understanding of modern web development. 
-            I'm particularly passionate about creating solutions that are not just functional, but maintainable, 
+            I am particularly passionate about creating solutions that are not just functional, but maintainable, 
             testable, and scalable.
           </motion.p>
 
@@ -88,9 +88,8 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Currently working at <strong>dSPACE GmbH</strong>, I'm contributing to large-scale applications while 
-            continuously learning and applying best practices in software engineering. I thrive in collaborative 
-            environments and am always eager to tackle new challenges.
+            Currently working at <strong>dSPACE GmbH</strong>, I am contributing to large-scale applications while 
+            continuously learning and applying best practices in software engineering.
           </motion.p>
         </motion.div>
 
