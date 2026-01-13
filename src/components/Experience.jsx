@@ -63,7 +63,7 @@ const Experience = () => {
       icon: <HiChartBar />,
       responsibilities: [
         'Developed the chatbot UI from concept to deployment',
-        'Supported AI research with automation scripts and data analysis',
+        'Supported research with automation scripts and data analysis',
       ],
     },
   ]
