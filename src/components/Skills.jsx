@@ -29,9 +29,14 @@ const Skills = () => {
       color: 'var(--secondary)',
     },
     {
+      title: 'Machine Learning & Data Science',
+      skills: ['scikit-learn', 'TensorFlow', 'PyTorch', 'Pandas', 'NumPy', 'NLP', 'BERT', 'Data Analysis', 'Model Training'],
+      color: 'var(--accent)',
+    },
+    {
       title: 'Tools & Methods',
       skills: ['Agile', 'Scrum', 'TDD', 'Figma', 'REST APIs', 'Integration Testing', 'Data Pipelines', 'Version Control'],
-      color: 'var(--accent)',
+      color: 'var(--primary)',
     },
   ]
 

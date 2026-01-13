@@ -14,6 +14,8 @@ const Experience = () => {
         'Develop full-stack solutions using C# (.NET) and React TypeScript for large-scale applications',
         'Implement automated CI/CD workflows with GitHub Actions and Docker',
         'Design RESTful APIs and integrate third-party services for automation and data synchronization',
+        'Integrate machine learning models (scikit-learn, TensorFlow) for predictive analytics and intelligent automation',
+        'Develop data processing pipelines using Python for feature engineering and model training',
         'Apply test-driven and continuous testing practices to ensure code quality and system reliability',
         'Prototype and validate user interfaces in Figma to enhance usability and performance',
       ],
@@ -63,7 +65,11 @@ const Experience = () => {
       icon: <HiChartBar />,
       responsibilities: [
         'Developed the chatbot UI from concept to deployment',
-        'Supported research with automation scripts and data analysis',
+        'Integrated NLP models (BERT, GPT-based) for conversational AI and natural language understanding',
+        'Implemented machine learning pipelines for data preprocessing and feature extraction',
+        'Built recommendation systems using collaborative filtering and content-based filtering algorithms',
+        'Developed automation scripts for data analysis and model evaluation metrics',
+        'Created data visualization dashboards for model performance monitoring and analysis',
       ],
     },
   ]
