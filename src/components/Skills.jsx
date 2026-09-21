@@ -5,22 +5,22 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Languages',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'C#', 'Java'],
+      skills: ['JavaScript', 'TypeScript', 'Python', 'C#', ],
       color: 'var(--primary)',
     },
     {
       title: 'Frameworks',
-      skills: ['React', 'Node.js', '.NET', 'Angular', 'Spring Boot', 'Django', 'Flask'],
+      skills: ['React', 'Node.js', '.NET', 'Django', 'Flask'],
       color: 'var(--secondary)',
     },
     {
       title: 'Testing',
-      skills: ['Jest', 'Cypress', 'NUnit', 'Mocha', 'Sinon', 'Chai', 'React Testing Library'],
+      skills: ['React Testing Library', 'Jest', 'Cypress', 'NUnit'],
       color: 'var(--accent)',
     },
     {
       title: 'DevOps & Cloud',
-      skills: ['Docker', 'AWS', 'Terraform', 'Kubernetes', 'CI/CD', 'GitHub Actions'],
+      skills: ['Docker', 'AWS', 'CI/CD', 'GitHub Actions'],
       color: 'var(--primary)',
     },
     {
@@ -30,12 +30,12 @@ const Skills = () => {
     },
     {
       title: 'Machine Learning & Data Science',
-      skills: ['scikit-learn', 'TensorFlow', 'PyTorch', 'Pandas', 'NumPy', 'NLP', 'BERT', 'Data Analysis', 'Model Training'],
+      skills: ['Pandas', 'NumPy', 'Data Analysis', 'Model Training'],
       color: 'var(--accent)',
     },
     {
       title: 'Tools & Methods',
-      skills: ['Agile', 'Scrum', 'TDD', 'Figma', 'REST APIs', 'Integration Testing', 'Data Pipelines', 'Version Control'],
+      skills: ['Agile', 'Scrum', 'TDD', 'Figma', 'REST APIs', 'Unit Testing','Integration Testing', 'Data Pipelines', 'Version Control'],
       color: 'var(--primary)',
     },
   ]
