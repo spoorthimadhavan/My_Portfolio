@@ -64,7 +64,6 @@ npm run build
 2. **Social Links**: Update GitHub, LinkedIn URLs in the same files
 3. **Experience**: Edit `src/components/Experience.jsx`
 4. **Education**: Edit `src/components/Education.jsx`
-5. **Projects**: Edit `src/components/Projects.jsx`
 
 ### Color Scheme
 
