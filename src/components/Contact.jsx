@@ -128,8 +128,8 @@ const Contact = () => {
     {
       icon: <HiPhone />,
       label: 'Phone',
-      value: '+49 151 71832620',
-      link: 'tel:+4915171832620',
+      value: '+49 155 67308433',
+      link: 'tel:+4915567308433',
     },
     {
       icon: <HiLocationMarker />,
