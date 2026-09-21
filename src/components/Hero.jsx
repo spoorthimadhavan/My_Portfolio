@@ -61,8 +61,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
           >
-            Building scalable applications with JavaScript frameworks, 
-            focusing on test-driven development and clean code practices.
+            Fullstack developer with a primary focus on frontend development — building interfaces in React, TypeScript, and JavaScript, with backend experience across Node.js, Python, and C#/.NET.
           </motion.p>
 
           <motion.div
@@ -75,9 +74,9 @@ const Hero = () => {
               <HiMail />
               <span>spoorthy.madhavan@gmail.com</span>
             </a>
-            <a href="tel:+4915171832620" className="contact-item">
+            <a href="tel:+4915567308433" className="contact-item">
               <HiPhone />
-              <span>+49 151 71832620</span>
+              <span>+49 155 67308433</span>
             </a>
             <div className="contact-item">
               <HiLocationMarker />
